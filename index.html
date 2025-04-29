@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Payal</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <!-- Background Music -->
+    <audio id="bg-music" autoplay loop>
+        <source src="scripts/audio.mp3" type="audio/mp3">
+    </audio>
+
+    <!-- Confetti Canvas -->
+    <canvas id="confetti"></canvas>
+
+    <!-- Balloons Container -->
+    <div class="balloons-container">
+        <div class="balloon red"></div>
+        <div class="balloon blue"></div>
+        <div class="balloon green"></div>
+        <div class="balloon yellow"></div>
+        <div class="balloon purple"></div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Happy Birthday, Payal!</h1>
+        <p class="message">Wishing you a joyful and memorable day full of love and happiness!</p>
+        <button class="whatsapp-btn" onclick="window.location.href='https://wa.me/1234567890'">Wish on WhatsApp</button>
+    </div>
+
+    <script src="scripts/script.js"></script>
+    <script>
+        // Ensure background music plays automatically
+        document.getElementById('bg-music').play();
+    </script>
+</body>
+</html>
